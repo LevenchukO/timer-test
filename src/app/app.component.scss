@@ -1,0 +1,18 @@
+.timer-wrap{
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  .timer{
+    margin: 30px auto 30px auto;
+    font-size: 60px;
+  }
+  .timer-buttons{
+    text-align: center;
+    button{
+      display: inline-block;
+      padding: 15px 20px;
+      font-size: 18px;
+    }
+  }
+}
